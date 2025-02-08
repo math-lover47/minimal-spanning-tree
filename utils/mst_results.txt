@@ -1,4 +1,4 @@
-Run Parameters: Vertices=100, Edge Range=(1.0, 10.0), Runs=1000
-Prim's Algorithm Time: 0.001780084 seconds
-Kruskal's Algorithm Time: 0.003025449 seconds
+Run Parameters: Vertices=100, Edge Range=(1.0, 10.0), Runs=1000, Edge Probability=1.0
+Prim's Algorithm Time: 0.003402507 seconds
+Kruskal's Algorithm Time: 0.007052956 seconds
 ----------------------------------------
