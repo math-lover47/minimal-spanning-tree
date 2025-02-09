@@ -36,15 +36,6 @@ def save_results(num_vertices, edge_range, runs, edge_probability, prim_time, kr
         f.write(f"Kruskal's Algorithm Time: {kruskal_time:.9f} seconds\n")
         f.write("-" * 40 + "\n")
 
-def draw_graph(graph, title):
-    pos = nx.spring_layout(graph, seed=42)
-    plt.figure(figsize=(8, 6))
-    nx.draw(graph, pos, with_labels=True, node_color='lightblue', edge_color='gray', node_size=700, font_size=10)
-    edge_labels = nx.get_edge_attributes(graph, 'weight')
-    nx.draw_networkx_edge_labels(graph, pos, edge_labels=edge_labels)
-    plt.title(title)
-    plt.show()
-
 def benchmark_mst(num_vertices, edge_range, edge_probability, runs):
     prim_times = []
     kruskal_times = []
@@ -100,7 +91,6 @@ def main():
     
     G = nx.Graph()
     G.add_weighted_edges_from(edges)
-    draw_graph(G, "Generated Graph")
 
 if __name__ == "__main__":
     main()
