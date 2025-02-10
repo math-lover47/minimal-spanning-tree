@@ -54,3 +54,51 @@ Run Parameters: Vertices=10, Edge Range=(0.0, 10.0), Runs=1, Edge Probability=1e
 Prim's Algorithm Time: 0.002188650 seconds
 Kruskal's Algorithm Time: 0.000789269 seconds
 ----------------------------------------
+Run Parameters: Vertices=10, Edge Range=(1.0, 10.0), Runs=10, Edge Probability=1.0
+Prim's Algorithm Time: 0.000130740 seconds
+Kruskal's Algorithm Time: 0.000202430 seconds
+----------------------------------------
+Run Parameters: Vertices=100, Edge Range=(1.0, 1000.0), Runs=10000, Edge Probability=0.1
+Prim's Algorithm Time: 0.000691713 seconds
+Kruskal's Algorithm Time: 0.000936161 seconds
+----------------------------------------
+Run Parameters: Vertices=100, Edge Range=(1.0, 10.0), Runs=1000, Edge Probability=0.01
+Prim's Algorithm Time: 0.000196323 seconds
+Kruskal's Algorithm Time: 0.000273965 seconds
+----------------------------------------
+Run Parameters: Vertices=100, Edge Range=(1.0, 1000.0), Runs=10000, Edge Probability=0.0
+Prim's Algorithm Time: 0.000005987 seconds
+Kruskal's Algorithm Time: 0.000010504 seconds
+----------------------------------------
+Run Parameters: Vertices=1000, Edge Range=(1.0, 10.0), Runs=1000, Edge Probability=0.01
+Prim's Algorithm Time: 0.010418063 seconds
+Kruskal's Algorithm Time: 0.013833279 seconds
+----------------------------------------
+Run Parameters: Vertices=1000, Edge Range=(1.0, 1000.0), Runs=1000, Edge Probability=1e-12
+Prim's Algorithm Time: 0.000029257 seconds
+Kruskal's Algorithm Time: 0.000026415 seconds
+----------------------------------------
+Run Parameters: Vertices=1000, Edge Range=(1.0, 1000.0), Runs=1000, Edge Probability=0.0
+Prim's Algorithm Time: 0.000028101 seconds
+Kruskal's Algorithm Time: 0.000024425 seconds
+----------------------------------------
+Run Parameters: Vertices=1000, Edge Range=(1.0, 10.0), Runs=1000, Edge Probability=1e-05
+Prim's Algorithm Time: 0.000077912 seconds
+Kruskal's Algorithm Time: 0.000070695 seconds
+----------------------------------------
+Run Parameters: Vertices=100, Edge Range=(1.0, 10.0), Runs=1000, Edge Probability=0.0001
+Prim's Algorithm Time: 0.000012463 seconds
+Kruskal's Algorithm Time: 0.000016529 seconds
+----------------------------------------
+Run Parameters: Vertices=10, Edge Range=(1.0, 100.0), Runs=1000, Edge Probability=0.0
+Prim's Algorithm Time: 0.000006503 seconds
+Kruskal's Algorithm Time: 0.000010011 seconds
+----------------------------------------
+Run Parameters: Vertices=1000, Edge Range=(1.0, 1000.0), Runs=1, Edge Probability=1.0
+Prim's Algorithm Time: 0.841326800 seconds
+Kruskal's Algorithm Time: 1.263000200 seconds
+----------------------------------------
+Run Parameters: Vertices=1000, Edge Range=(1.0, 1000.0), Runs=10, Edge Probability=1.0
+Prim's Algorithm Time: 1.123664750 seconds
+Kruskal's Algorithm Time: 1.303239230 seconds
+----------------------------------------
